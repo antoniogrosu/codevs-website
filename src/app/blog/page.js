@@ -1,5 +1,12 @@
+import Hero from "../components/blogPage/Hero";
+import News from "../components/blogPage/News";
 function Blog() {
-  return <div>Blog</div>;
+  return (
+    <>
+      <Hero />
+      <News />
+    </>
+  );
 }
 
 export default Blog;
