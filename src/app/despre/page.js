@@ -1,7 +1,7 @@
 import Hero from "../components/aboutPage/Hero";
 import Technologies from "../components/aboutPage/Technologies";
 import Principles from "../components/aboutPage/Principles";
-import Contact from "../components/homePage/Contact";
+import Contact from "../components/homepage/Contact";
 function AboutPage() {
   return (
     <>
