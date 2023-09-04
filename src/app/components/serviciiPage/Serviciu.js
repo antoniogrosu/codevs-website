@@ -37,15 +37,9 @@ function Serviciu() {
         <div className="mt-6">
           <a
             href=""
-            className="bg-violet-500/30  hover:bg-violet-500/80 transition-all ease-in-out px-4 py-2 rounded-xl poppins text-violet-50 border-2 border-violet-500"
+            className="bg-violet-500/30 hover:shadow-md  hover:shadow-violet-50/50 hover:bg-violet-500/80 transition-all ease-in-out px-4 py-2 rounded-xl poppins text-violet-50 border-2 border-violet-500"
           >
             Hai sa discutam
-          </a>
-          <a
-            href=""
-            className="bg-violet-50/30 ml-4 transition-all ease-in-out hover:bg-violet-50/80 hover:text-gray-900 px-4 py-2 rounded-xl poppins text-violet-50 border-2 border-violet-50"
-          >
-            Afla mai multe
           </a>
         </div>
       </div>

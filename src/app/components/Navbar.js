@@ -5,9 +5,9 @@ import { useState } from "react";
 function Navbar() {
   const [sideBar, setSideBar] = useState(false);
   return (
-    <nav
-      className={`text-violet-50 py-6  px-4  md:px-12 lg:px-16 xl:px-20 2xl:px-24 left-0 justify-between fixed top-0  w-full md:py-2 lg:py-4 flex  items-center ${
-        !sideBar ? "bg-gray-950/80" : ""
+    <div
+      className={`text-violet-50 z-10 py-6  px-4  md:px-12 lg:px-16 xl:px-20 2xl:px-24 left-0 justify-between fixed top-0  w-full md:py-2 lg:py-4 flex  items-center ${
+        !sideBar ? "bg-gray-950/90 " : ""
       }`}
     >
       {!sideBar && (
@@ -71,7 +71,7 @@ function Navbar() {
           </div>
         </div>
       )}
-    </nav>
+    </div>
   );
 }
 

@@ -3,6 +3,8 @@ import About from "./components/homepage/About";
 import Services from "./components/homepage/Services";
 import Testimonials from "./components/homepage/Testimonials";
 import Contact from "./components/homepage/Contact";
+import Head from "next/head";
+
 function Homepage() {
   return (
     <>
