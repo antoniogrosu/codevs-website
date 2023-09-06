@@ -7,8 +7,7 @@ function Hero() {
 
         <p className="mt-8 mb-12 md:w-10/12">
           Suntem Codevs - Pasiunea Noastră Este Să Transformăm Viziunile Tale în
-          Experiențe Online Memorabile. Hai Să Începem Această Călătorie
-          Digitală Împreună
+          Experiențe Online Memorabile.
         </p>
 
         <a

@@ -10,8 +10,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ro">
       <body className="px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-40  bg-gray-950">
-        <Navbar />
-        {children}
+        <header>
+          <Navbar />
+        </header>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

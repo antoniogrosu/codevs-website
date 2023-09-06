@@ -3,7 +3,7 @@ function Hero() {
     <div className="grid grid-cols-1 md:grid-cols-2 mt-24 md:mt-32 xl:mt-40 2xl:mt-44 gap-6 poppins text-violet-50">
       <h1 className="semibold text-4xl">
         Explorând Nexusul Afacerilor și al Tehnologiei:{" "}
-        <span className="text-violet-500">Blogul CodeVs</span>
+        <span className="text-violet-500">Blogul @codevs</span>
       </h1>
       <p>
         Aici, vă oferim o sursă bogată de informații și analize din universul

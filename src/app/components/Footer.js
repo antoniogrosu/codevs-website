@@ -6,7 +6,7 @@ function Footer() {
       <div className="text-violet-50 w-full">
         <a
           href="/"
-          className="hover:text-violet-500 transition-all ease-in-out sora text-2xl semibold"
+          className="hover:text-violet-500 transition-all ease-in-out sora text-xl semibold"
         >
           <span className="text-violet-500">@</span>codevs
         </a>
