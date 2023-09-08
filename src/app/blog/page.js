@@ -1,12 +1,12 @@
-// import Hero from "../components/blogPage/Hero";
-// import News from "../components/blogPage/News";
-// function Blog() {
-//   return (
-//     <>
-//       <Hero />
-//       <News />
-//     </>
-//   );
-// }
+import Hero from "../components/blogPage/Hero";
+import News from "../components/blogPage/News";
+function Blog() {
+  return (
+    <>
+      {/* <Hero />
+      <News /> */}
+    </>
+  );
+}
 
-// export default Blog;
+export default Blog;
