@@ -53,7 +53,7 @@ function Navbar() {
       )}
       {sideBar && (
         <div className="absolute  w-full top-0 left-0  h-screen">
-          <div className="w-9/12 px-8 py-6  bg-gray-950 h-screen flex flex-col justify-between">
+          <div className="w-9/12 px-8 py-6  bg-gray-950 h-screen flex flex-col justify-start gap-48">
             <div>
               <div className="w-full flex items-center justify-between">
                 <a
@@ -131,7 +131,26 @@ function Navbar() {
             </div>
             {alert && (
               <div className="p-4 poppins text-violet-50/50 border-2 border-violet-500 bg-violet-500/20 h-auto rounded-xl">
-                <div className="w-full flex justify-end">
+                <div className="w-full flex items-center justify-between">
+                  <div>
+                    <p className="w-full text-violet-50 text-sm">
+                      Blog-ul Codevs va fi disponibil in curand!
+                      <br />
+                      Fii primul care citeste postarile!
+                    </p>
+                    <button className="px-4 flex mt-6 py-1 rounded-md  sora bg-violet-500   text-gray-50">
+                      <svg
+                        className="w-[24px] h-[24px] mr-2 text-gray-800 dark:text-white"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 19 20"
+                      >
+                        <path d="M18.012 13.453c-.219-1.173-2.163-1.416-2.6-3.76l-.041-.217c0 .006 0-.005-.007-.038v.021l-.017-.09-.005-.025v-.006l-.265-1.418a5.406 5.406 0 0 0-5.051-4.408.973.973 0 0 0 0-.108L9.6 1.082a1 1 0 0 0-1.967.367l.434 2.325a.863.863 0 0 0 .039.1A5.409 5.409 0 0 0 4.992 9.81l.266 1.418c0-.012 0 0 .007.037v-.007l.006.032.009.046v-.01l.007.038.04.215c.439 2.345-1.286 3.275-1.067 4.447.11.586.22 1.173.749 1.074l12.7-2.377c.523-.098.413-.684.303-1.27ZM1.917 9.191h-.074a1 1 0 0 1-.924-1.07 9.446 9.446 0 0 1 2.426-5.648 1 1 0 1 1 1.482 1.343 7.466 7.466 0 0 0-1.914 4.449 1 1 0 0 1-.996.926Zm5.339 8.545A3.438 3.438 0 0 0 10 19.1a3.478 3.478 0 0 0 3.334-2.5l-6.078 1.136Z" />
+                      </svg>
+                      Inscrie-te
+                    </button>
+                  </div>
                   <button
                     onClick={() => {
                       setAlert(!alert);
@@ -154,23 +173,6 @@ function Navbar() {
                     </svg>
                   </button>
                 </div>
-                <p className="w-full sm:w-3/4">
-                  Blog-ul Codevs va fi disponibil in curand! Daca iti doresti sa
-                  fii primul care vede postarile noastre, inscrie-te in
-                  newsletter-ul nostru!
-                </p>
-                <button className="px-4 flex mt-2 py-1 rounded-lg border-2 sora bg-violet-500  border-violet-900/50 text-gray-50">
-                  <svg
-                    className="w-[24px] h-[24px] mr-2 text-gray-800 dark:text-white"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 19 20"
-                  >
-                    <path d="M18.012 13.453c-.219-1.173-2.163-1.416-2.6-3.76l-.041-.217c0 .006 0-.005-.007-.038v.021l-.017-.09-.005-.025v-.006l-.265-1.418a5.406 5.406 0 0 0-5.051-4.408.973.973 0 0 0 0-.108L9.6 1.082a1 1 0 0 0-1.967.367l.434 2.325a.863.863 0 0 0 .039.1A5.409 5.409 0 0 0 4.992 9.81l.266 1.418c0-.012 0 0 .007.037v-.007l.006.032.009.046v-.01l.007.038.04.215c.439 2.345-1.286 3.275-1.067 4.447.11.586.22 1.173.749 1.074l12.7-2.377c.523-.098.413-.684.303-1.27ZM1.917 9.191h-.074a1 1 0 0 1-.924-1.07 9.446 9.446 0 0 1 2.426-5.648 1 1 0 1 1 1.482 1.343 7.466 7.466 0 0 0-1.914 4.449 1 1 0 0 1-.996.926Zm5.339 8.545A3.438 3.438 0 0 0 10 19.1a3.478 3.478 0 0 0 3.334-2.5l-6.078 1.136Z" />
-                  </svg>
-                  Inscrie-te
-                </button>
               </div>
             )}
           </div>
