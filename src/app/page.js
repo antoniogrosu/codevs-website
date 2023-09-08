@@ -3,7 +3,21 @@ import About from "./components/homepage/About";
 import Services from "./components/homepage/Services";
 import Testimonials from "./components/homepage/Testimonials";
 import Contact from "./components/homepage/Contact";
-import Head from "next/head";
+
+export const metadata = {
+  title: "Codevs.ro | Home",
+  description:
+    "Suntem Codevs - Pasiunea Noastră Este Să Transformăm Viziunile Tale în Experiențe Online Memorabile.",
+  twitter: {
+    card: "summary_large_image",
+    title: "Next.js",
+    description: "The React Framework for the Web",
+    siteId: "1467726470533754880",
+    creator: "@nextjs",
+    creatorId: "1467726470533754880",
+    images: ["https://nextjs.org/og.png"],
+  },
+};
 
 function Homepage() {
   return (
