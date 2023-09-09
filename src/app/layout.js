@@ -6,10 +6,10 @@ export const metadata = {
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    apple: "/apple-icon.png",
     other: {
-      rel: "favicon",
-      url: "/favicon.png",
+      rel: "apple-icon",
+      url: "/apple-icon.png",
     },
   },
   generator: "Codevs",
