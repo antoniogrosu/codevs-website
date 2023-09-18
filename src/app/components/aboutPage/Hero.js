@@ -1,3 +1,4 @@
+import Image from "next/image";
 function Hero() {
   return (
     <div className="poppins mt-24 md:mt-32 xl:mt-40 2xl:mt-44 grid md:grid-cols-2 grid-cols-1 gap-x-2 gap-y-8">
@@ -11,7 +12,9 @@ function Hero() {
         Bine ai revenit în spațiul online pe care îl definim împreună. Suntem
         aici pentru că împărtășim aceeași pasiune pentru inovație și succes.
       </p>
-      <div className="md:w-8/12 py-32 bg-violet-50"></div>
+      <div className="md:w-8/12  ">
+        <Image src="/vision.svg" width={0} height={0} className="w-full" />
+      </div>
       <div className="flex flex-col gap-4">
         <p className="text-violet-50">
           In fiecare linie de cod și în fiecare pixel plasmăm esența ideilor

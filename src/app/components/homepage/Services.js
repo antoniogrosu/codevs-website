@@ -8,9 +8,21 @@ function Services() {
         prin serviciile noastre{" "}
       </h1>
       <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
+        <ServiceCard
+          service="Wesbite Personal"
+          src={"/website.svg"}
+          benefit={["Design Unic", "Optimizare"]}
+        />
+        <ServiceCard
+          service="Aplicatie Comerciala"
+          src={"/application.svg"}
+          benefit={["Autentificare", "Procesor Plati"]}
+        />
+        <ServiceCard
+          service="Software Business"
+          src={"/business.svg"}
+          benefit={["Tool-uri Specifice", "Management Eficient"]}
+        />
       </div>
     </div>
   );
