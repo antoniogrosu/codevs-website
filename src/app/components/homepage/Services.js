@@ -16,12 +16,16 @@ function Services() {
         <ServiceCard
           service="Aplicatie Comerciala"
           src={"/application.svg"}
-          benefit={["Autentificare", "Procesor Plati"]}
+          benefit={["Autentificare", "Procesor Plati", "BD Dedicata"]}
         />
         <ServiceCard
           service="Software Business"
           src={"/business.svg"}
-          benefit={["Tool-uri Specifice", "Management Eficient"]}
+          benefit={[
+            "Tool-uri Specifice",
+            "Management Eficient",
+            "Securitate Inalta",
+          ]}
         />
       </div>
     </div>

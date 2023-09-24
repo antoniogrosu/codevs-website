@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Serviciu(props) {
   return (
-    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 mt-24 md:mt-32 xl:mt-40 2xl:mt-44">
+    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 md:mt-32 xl:mt-40 2xl:mt-44">
       <div className="hidden md:block p-4 w-96 h-96  ">
         <Image src={props.src} className="w-full" width={0} height={0} />
       </div>

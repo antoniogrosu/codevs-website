@@ -1,7 +1,7 @@
 import Image from "next/image";
 function About() {
   return (
-    <div className="flex items-center justify-between gap-12 md:mt-24 xl:mt-36 2xl:mt-40">
+    <div className="flex items-center justify-between mt-20 gap-12 md:mt-24 xl:mt-36 2xl:mt-40">
       <div className="hidden md:block w-2/3">
         <Image
           src="/aboutSection.svg"

@@ -5,7 +5,10 @@ function Contact() {
         Construim viitorul ideilor tale – <br /> să incepem această călătorie
         impreună
       </h1>
-      <a className="mt-8 cursor-pointer w-full md:w-4/12 block md:inline-block transition text-center duration-150 ease-linear hover:shadow-md hover:shadow-violet-300 px-4 py-2 rounded-md bg-violet-500">
+      <a
+        href="tel:+40747738250"
+        className="mt-8 cursor-pointer w-full md:w-4/12 block md:inline-block transition text-center duration-150 ease-linear hover:shadow-md hover:shadow-violet-300 px-4 py-2 rounded-md bg-violet-500"
+      >
         Programeaza o intalnire
       </a>
     </div>

@@ -1,12 +1,12 @@
 import Image from "next/image";
 function Hero() {
   return (
-    <div className="flex items-center justify-between gap-8 h-screen  md:h-auto md:mt-24 xl:mt-36 2xl:mt-40">
-      <div className="poppins w-full text-violet-50 md:w-9/12">
+    <div className="md:flex items-center justify-between gap-8  mt-36 md:h-auto md:mt-32 xl:mt-40 2xl:mt-44">
+      <div className="poppins md:w-8/12  text-violet-50">
         <h1 className="semibold text-4xl">Îmbrățișează Viitorul Digital</h1>
         <Image
           src="/heroAnimation.svg"
-          className="md:hidden block mx-auto w-full my-8 "
+          className="md:hidden block mx-auto w-full my-8"
           width={0}
           height={0}
         />

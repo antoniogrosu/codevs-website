@@ -37,30 +37,30 @@ function Footer() {
             Exploreaza Site-ul
           </h4>
           <a
-            href=""
+            href="/despre"
             className="py-2 text-sm poppins hover:text-violet-500 transition-all ease-in-out text-violet-50"
           >
             Despre Noi
           </a>
           <a
-            href=""
+            href="/servicii"
             className="py-2  text-sm poppins hover:text-violet-500 transition-all ease-in-out text-violet-50"
           >
             Servicii
           </a>
-          <a
-            href=""
+          {/* <a
+            href="/blog"
             className="py-2 text-sm poppins hover:text-violet-500 transition-all ease-in-out text-violet-50"
           >
             Blog
-          </a>
+          </a> */}
         </div>
         <div className="w-full">
           <h4 className="text-lg sora text-violet-50 semibold">
             Contacteaza-ne
           </h4>
           <a
-            href="/"
+            href="mailto:contact.codevs@gmail.com?subject=Colaborare Proiect"
             className="mt-2 underline hover:text-violet-500 transition-all ease-in-out   text-violet-50"
           >
             contact.codevs@gmail.com

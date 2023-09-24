@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Hero() {
   return (
-    <div className="poppins mt-24 md:mt-32 xl:mt-40 2xl:mt-44 grid md:grid-cols-2 grid-cols-1 gap-x-2 gap-y-8">
+    <div className="poppins mt-36 md:mt-32 xl:mt-40 2xl:mt-44 grid md:grid-cols-2 grid-cols-1 gap-x-2 gap-y-8">
       <h1 className="semibold text-4xl text-violet-50">
         Transformăm{" "}
         <span className="text-violet-500">
